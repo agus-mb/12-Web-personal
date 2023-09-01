@@ -133,3 +133,47 @@ body{
     margin:15px;
     font-size: 35px;
 }
+
+/***************************************************/
+
+
+/***************************************************/
+
+.educacion-titulo{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+}
+
+.contenedor-educacion{
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap:30px;
+}
+
+.educacion-item{
+    width: 30%;
+}
+
+.item-titulo{
+    font-size: 45px;
+}
+
+.item-posicion{
+    font-size: 35px;
+}
+
+.item-tiempo{
+    font-size: 30px;
+}
+
+/****************************************/
+
+.contacto-titulo{
+    font-size: 50px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
