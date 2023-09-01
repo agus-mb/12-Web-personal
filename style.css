@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.navbar{
+    background-color:rgb(255, 250, 243);
+    padding: 20px;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-item{
+    text-decoration:dotted;
+    background-color: aqua;
+}
+
+/*.lista{
+    list-style: inside;
+}*/
+  
+.navbar-li{
+    list-style: none;
+}
+
+/*******************************************/
+
+.perfil-contenedor{
+    display: flex;
+    flex-direction:row;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding:20px;
+}
+
+.perfil-saludo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content:center;
+    align-items: center;
+}
+
+.perfil-titulo{
+    font-size: 90px;
+}
+
+.perfil-nombre{
+    font-size: 60px;
+}
+
+.perfil-puesto{
+    font-size: 40px;
+}
+
+.imagen-perfil{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.perfil-boton{
+    font-size: 35px;
+    margin:15px;
+    padding: 10px;
+}
+
+/***********************************/
+
+.info-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    gap:30px;
+    height: 50vh;
+}
+
+
+.info-basicos{
+    width: 30%;
+    height: 40vh;
+}
+
+.basico-titulo{
+    font-size: 50px;
+}
+
+.basico-nombre-apellido{
+    font-size: 47px;
+}
+
+.basico-puesto{
+    font-size: 40px;
+}
+
+.basico-edad{
+    font-size: 35px;
+}
+
+.basico-ubicacion{
+    font-size: 35px;
+}
+
+.info-experiencia{
+    width: 35%;
+    height: 40vh;
+}
+
+.experiencia-titulo{
+    font-size: 50px;
+}
+
+.lista-experiencia{
+    margin:15px;
+    font-size: 35px;
+}
