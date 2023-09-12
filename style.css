@@ -38,7 +38,7 @@ body{
 .perfil-contenedor{
     display: flex;
     flex-direction:row;
-
+height: 50vh;
     justify-content: center;
     align-items: center;
     gap:40px;
@@ -85,10 +85,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-background-color: blue;
+    align-items:flex-start;
     gap:30px;
-    height: 50vh;
+    height: 70vh;
+    padding-top: 70px;
 }
 
 
@@ -139,8 +139,6 @@ background-color: blue;
     align-items: center;
     gap:30px;
     padding-top:80px;
-
-
 }
 
 .herramientas-titulo{

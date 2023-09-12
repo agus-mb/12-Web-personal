@@ -35,18 +35,22 @@ padding-left: 20%;
 }
 #herramientas{
     padding-left: 20%;
+    height: 100vh;
 }
 
 #ensenianza{
     padding-left: 20%;
+    height: 100vh;
 }
 
 #contacto{
     padding-left: 20%;
+    height: 50vh;
 }
 
 .despedida{
     padding-left: 20%;
+    height: 15vh;
 }
 /****************************/
 
@@ -57,8 +61,8 @@ padding-left: 20%;
     align-items:center;
     gap:40px;
     height: 100vh;
-    padding:0px;
-}
+    padding-bottom: 50px;
+    }
 
 .perfil-saludo{
     width: 100%;
@@ -136,10 +140,126 @@ justify-content:flex-start;
 
 .experiencia-titulo{
     font-size: 90px;
+    text-align: center;
 }
 
 .lista-experiencia{
     font-size: 40px;
 }
 
+/************************************/
+
+.herramientas-titulo{
+    font-size: 90px;
 }
+
+.tecnologias{
+    width: 90%;
+}
+
+.img-herramientas{
+width: 10%;
+}
+
+/************************************/
+
+.info-capacidades{
+display: flex;
+flex-direction: column;
+gap:30px;
+}
+
+.capacidades-titulo{
+    font-size: 90px;
+
+}
+
+.capacidades-lista{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+/**************************************/
+
+.educacion-titulo{
+    font-size: 90px;
+}
+
+.contenedor-educacion{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/**********************************/
+
+.contacto-titulo{
+    font-size: 90px;
+}
+
+.contacto-redes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding:0px;
+}
+
+.red{
+    width: 10%;
+}
+
+}
+
+
+@media (max-width: 576px){
+
+
+
+    .navbar-list{
+        background-color: green;  
+        height: 200vh;
+    }
+
+
+    /****************************/
+
+#perfil{
+    padding-left: 25%;
+    width: 100%;
+    }
+
+    #herramientas{
+        padding-left: 25%;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    #ensenianza{
+        padding-left: 25%;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    #contacto{
+        padding-left: 25%;
+        height: 50vh;
+        width: 100%;
+    }
+    
+    .despedida{
+        padding-left: 25%;
+        height: 15vh;
+        width: 100%;
+    }
+    /****************************/
+
+
+
+
+
+}
+
