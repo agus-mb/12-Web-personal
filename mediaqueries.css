@@ -1,0 +1,145 @@
+@media (max-width: 776px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+
+.navbar{
+    padding: 0px;
+}
+
+.navbar-list{
+    background-color: red;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    gap:100px;
+    font-size: 35px;
+    align-items: start;
+    justify-content: center;
+    width: 20%;
+    height: 100vh;
+    z-index: 2;
+}
+
+.navbar-item{
+    display: none;
+}
+
+/****************************/
+
+#perfil{
+padding-left: 20%;
+}
+#herramientas{
+    padding-left: 20%;
+}
+
+#ensenianza{
+    padding-left: 20%;
+}
+
+#contacto{
+    padding-left: 20%;
+}
+
+.despedida{
+    padding-left: 20%;
+}
+/****************************/
+
+.perfil-contenedor{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    height: 100vh;
+    padding:0px;
+}
+
+.perfil-saludo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content:center;
+    align-items: center;
+}
+
+.perfil-titulo{
+    font-size: 95px;
+    text-align:center;
+}
+
+.perfil-nombre{
+    font-size: 60px;
+}
+
+.perfil-puesto{
+    font-size: 40px;
+}
+
+/***************************************/
+.info-contenedor{
+    display:flex;
+    flex-direction: column;
+height: 200vh;
+align-items:center;
+justify-content:flex-start;
+
+}
+
+
+.info-basicos{
+    width: 90%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.basico-titulo{
+    font-size: 90px;
+}
+
+.basico-nombre-apellido{
+    font-size: 57px;
+    width: 100%;
+}
+
+.basico-puesto{
+    font-size: 50px;
+    width: 100%;
+}
+
+.basico-edad{
+    font-size: 45px;
+    width: 100%;
+}
+
+.basico-ubicacion{
+    font-size: 45px;
+    width: 100%;
+}
+
+.info-experiencia{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.experiencia-titulo{
+    font-size: 90px;
+}
+
+.lista-experiencia{
+    font-size: 40px;
+}
+
+}
