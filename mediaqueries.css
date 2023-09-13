@@ -11,7 +11,7 @@
 }
 
 .navbar-list{
-    background-color: red;
+    background-color: rgb(240, 240, 240); 
     display: flex;
     position: fixed;
     flex-direction: column;
@@ -26,6 +26,19 @@
 
 .navbar-item{
     display: none;
+}
+
+.navbar-li{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 192, 192);
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 10px;
+    width:60%;
+    margin-left: 15px;
 }
 
 /****************************/
@@ -219,10 +232,12 @@ gap:30px;
 
 
 
-    .navbar-list{
-        background-color: green;  
-        height: 200vh;
+    .navbar-list{ 
+        height: 130vh;
+
     }
+
+   
 
 
     /****************************/
