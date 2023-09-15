@@ -25,21 +25,25 @@
 }
 
 .navbar-item{
+    display: flex;
+
+}
+
+.navbar-item-desactivado{
     display: none;
 }
 
 .navbar-li{
     display: flex;
-    flex-direction: column;
     background-color: rgb(192, 192, 192);
-    border-radius: 100%;
+    border-radius: 50px 50px 50px 50px;
     align-items: center;
-    justify-content: center;
-    width: 80%;
+    gap:0px;
+    width: 180%;
     padding: 10px;
-    width:60%;
     margin-left: 15px;
 }
+
 
 .navbar-li img{
     display: flex;

@@ -26,6 +26,7 @@ body{
 .navbar-item{
     text-decoration: none;
     color:black;
+    display: none;
 
 }
   
@@ -34,7 +35,7 @@ body{
 }
 
 .navbar-li img{
-    display: none;
+    display: flex;
 }
 
 /*******************************************/
