@@ -21,22 +21,29 @@ body{
     font-size: 35px;
     align-items: center;
     justify-content: center;
+
 }
 
 .navbar-item{
     text-decoration: none;
     color:black;
-    display: none;
-
+   display: none;
 }
   
 .navbar-li{
     list-style: none;
 }
 
-.navbar-li img{
+.navbar-img{
     display: flex;
 }
+
+/*********************************************/
+/* Estilo inicial de la lista de navegación */
+.navbar-item-show {
+    display: flex;
+  }
+  
 
 /*******************************************/
 

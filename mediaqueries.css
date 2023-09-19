@@ -24,14 +24,6 @@
     z-index: 2;
 }
 
-.navbar-item{
-    display: flex;
-
-}
-
-.navbar-item-desactivado{
-    display: none;
-}
 
 .navbar-li{
     display: flex;
